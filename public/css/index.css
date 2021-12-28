@@ -1,0 +1,35 @@
+a{
+	list-style: none;
+	outline: none;
+	text-decoration: none;
+}
+.indexBox{
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+ul.indexNav{
+	width: 120px;
+	overflow: hidden;
+	text-align: center;
+	background-color: #eeeeee;
+}
+ul.indexNav li a{
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	width: 100%;
+	border-bottom: 1px solid #666666;
+	color: #999;
+}
+ul.indexNav li.active a{
+	background-color: #666666;
+	color: #ffffff;
+}
+.indexBody{
+	flex: auto;
+	height: 100%;
+	overflow: auto;
+	/*background-color: yellow;*/
+}
